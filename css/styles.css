@@ -48,7 +48,8 @@ img{
 }
 /*================== CONTAINER ================*/
 .container{
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -286,14 +287,17 @@ p .small{
 /* ==== /BUTTON === */
 /* ================= SECTION-2 ================= */
 .benefits{
-  padding: 120px 0;
+  /*padding: 120px 0;*/
+  padding: 96px 0;
 }
 .benefits-option{
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  /*gap: 24px;*/
+  gap: 72px;
 }
 .benefits-item{
-  flex-basis: calc((100% - 72px) / 4);
+  /*flex-basis: calc((100% - 72px) / 4);*/
 }
 .subtitel-benefits{
   margin-bottom: 8px;
