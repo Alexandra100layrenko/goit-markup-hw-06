@@ -48,7 +48,6 @@ img{
 }
 /*================== CONTAINER ================*/
 .container{
-  max-width: 1158px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -326,7 +325,8 @@ p .small{
   }
 }
 
-@media screen and (min-width: 768px;){
+
+@media screen and (min-width: 768px){
   .container{
     max-width: 766px;
   }
@@ -344,6 +344,12 @@ p .small{
   .advantages-block {
     visibility: hidden;
     display: none;
+  }
+}
+
+@media screen and (min-width: 1158px){
+  .container{
+    max-width: 1158px;
   }
 }
 
