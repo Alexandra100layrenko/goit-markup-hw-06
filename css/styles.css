@@ -290,7 +290,7 @@ p .small{
 }
 .benefits-option{
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
   gap: 72px;
 }
 
