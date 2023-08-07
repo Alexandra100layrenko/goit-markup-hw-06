@@ -530,8 +530,6 @@ p .small{
   display: flex;
   gap: 24px;
   flex-direction: column;
-  /*justify-content: center;
-    flex-wrap: wrap;*/
 }
 
 .search-form{
@@ -1037,6 +1035,11 @@ p .small{
     flex-direction: row;
     gap: 120px;
     margin-right: 120px;
+  }
+
+  .footer-form{
+    justify-content: center;
+    flex-wrap: wrap;
   }
  
   .social{
