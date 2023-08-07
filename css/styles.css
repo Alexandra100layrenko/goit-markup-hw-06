@@ -550,7 +550,6 @@ p .small{
 .search-form::placeholder{
   color: #ffffff;
 }
-
 .search-form-btn{
   display: flex;
   width: 165px;
