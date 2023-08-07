@@ -888,14 +888,14 @@ p .small{
 }
 /* ================= PORTFOLIO ================= */
 
-/* === mobile === */
+/* === MOBILE === */
 @media screen and (min-width: 428px;){
   .container{
     max-width: 426px;
   }
 }
 
-/* === lapTop === */
+/* === LAPTOP === */
 @media screen and (min-width: 768px){
   .container{
     max-width: 766px;
@@ -931,7 +931,7 @@ p .small{
 }
 
 
-/* === DesTop === */
+/* === DESTOP === */
 @media screen and (min-width: 1158px){
   .container{
     max-width: 1158px;
