@@ -343,6 +343,8 @@ p .small{
     flex-basis: calc((100% - 72px) / 2);
   }
    /* === 4 === */
+  .card-employee-item{
+    flex-basis: calc((100% - 72px) / 2);
 }
 
 
