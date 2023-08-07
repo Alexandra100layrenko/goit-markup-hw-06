@@ -343,8 +343,13 @@ p .small{
     flex-basis: calc((100% - 72px) / 2);
   }
    /* === 4 === */
+   .category-product-list{
+    gap: 24px 72px;
+  }
+
   .card-employee-item{
     flex-basis: calc((100% - 72px) / 2);
+  }
 }
 
 
@@ -439,11 +444,12 @@ p .small{
 .card-employee-list{
   display: flex;
   align-content: center;
-  gap: 24px;
+  gap: 64px;
   flex-wrap: wrap;
   justify-content: center;
 }
 .card-employee-item{
+  max-width: 264px;
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
