@@ -401,11 +401,12 @@ p .small{
 .customers-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  justify-content: center;
+  gap: 72px 16px;
 }
 .cut{
   height: 88px;
-  width: calc((100% - 16px) / 6);
+  width: calc((100% - 80px) / 2);
 }
 .customers-link{
   display: flex;
@@ -896,6 +897,7 @@ p .small{
   .container{
     max-width: 426px;
   }
+  /* === footer === */
 }
 
 /* === LAPTOP === */
@@ -911,13 +913,6 @@ p .small{
     margin-bottom: 36px;
   }
 
-  .suboptions-descriptions-text{
-    font-family: var(--main-font-family);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--dark);
-  }
   /* === 2 === */
   .benefits-item{
     flex-basis: calc((100% - 72px) / 2);
@@ -931,9 +926,13 @@ p .small{
     flex-basis: calc((100% - 72px) / 2);
   }
   /* === 5 === */
-  .cut{
-    width: calc((100% - 48px) / 6);
+  .customers-list{
+    gap: 72px 24px;
   }
+  .cut{
+    width: calc((100% - 48px) / 3);
+  }
+  /* === footer === */
 }
 
 
@@ -1004,6 +1003,9 @@ p .small{
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .card-employee-list {
+    gap: 24px;
+  }
   .card-employee-item{
     flex-basis: calc((100% - 72px) / 4);
   }
@@ -1012,7 +1014,11 @@ p .small{
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .customers-list{
+    gap: 24px;
+  }
   .cut{
     width: calc((100% - 120px) / 6);
-  }
+  } 
+  /* === footer === */
 }
