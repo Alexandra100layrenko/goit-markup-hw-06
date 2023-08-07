@@ -350,6 +350,7 @@ p .small{
   .card-employee-item{
     flex-basis: calc((100% - 72px) / 2);
   }
+  /* === 5 === */
 }
 
 
@@ -381,6 +382,10 @@ p .small{
   }
   .benefits-item{
     flex-basis: calc((100% - 72px) / 4);
+  }
+  /* === 5 === */
+  .cut{
+    width: calc((100% - 48px) / 3);
   }
   /* === svg === */
   .advantages-block {
@@ -421,6 +426,14 @@ p .small{
   }
   .card-employee-item{
     flex-basis: calc((100% - 72px) / 4);
+  }
+  /* === 5 === */
+  .customers{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .cut{
+    width: calc((100% - 120px) / 6);
   }
 }
 
@@ -500,8 +513,8 @@ p .small{
 }
 /* ================= SECTION-5 ================= */
 .customers{
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 96px;
+  padding-bottom: 96px;*/
 }
 .customers-block>.sub-title-text{
   font-size: 36px;
@@ -513,11 +526,11 @@ p .small{
 .customers-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px 72px;
 }
 .cut{
   height: 88px;
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 16px) / 2);
 }
 .customers-link{
   display: flex;
