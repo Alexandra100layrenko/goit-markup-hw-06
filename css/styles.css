@@ -292,7 +292,7 @@ p .small{
 }
 .benefits-option{
   display: flex;
-  flex-direction: column;
+  flex-direction: wrap;
   /*gap: 24px;*/
   gap: 72px;
 }
@@ -318,6 +318,36 @@ p .small{
 .advantages-icon {
   fill: var(--dark);
 }
+
+
+@media screen and (min-width: 428px;){
+  .container{
+    max-width: 426px;
+  }
+}
+
+@media screen and (min-width: 768px;){
+  .container{
+    max-width: 766px;
+  }
+
+  .benefits-item{
+    flex-basis: calc((100% - 72px) / 2);
+  }
+  .subtitel-benefits{
+    margin-bottom: 8px;
+  }
+  .description-benefits{
+    color: var(--primary-text-color);
+  }
+  /* === svg === */
+  .advantages-block {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+
 /* ================= SECTION-3 ================= */
 .category-product{
   padding-bottom: 120px;
