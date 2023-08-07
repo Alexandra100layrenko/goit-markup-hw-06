@@ -286,18 +286,14 @@ p .small{
 /* ==== /BUTTON === */
 /* ================= SECTION-2 ================= */
 .benefits{
-  /*padding: 120px 0;*/
   padding: 96px 0;
 }
 .benefits-option{
   display: flex;
   flex-direction: wrap;
-  /*gap: 24px;*/
   gap: 72px;
 }
-.benefits-item{
-  /*flex-basis: calc((100% - 72px) / 4);*/
-}
+
 .subtitel-benefits{
   margin-bottom: 8px;
 }
@@ -311,14 +307,14 @@ p .small{
 }
 
 
-
+/* === mobile === */
 @media screen and (min-width: 428px;){
   .container{
     max-width: 426px;
   }
 }
 
-
+/* === lapTop === */
 @media screen and (min-width: 768px){
   .container{
     max-width: 766px;
@@ -334,11 +330,12 @@ p .small{
     color: var(--primary-text-color);
   }
 }
-
+/* === DesTop === */
 @media screen and (min-width: 1158px){
   .container{
     max-width: 1158px;
   }
+  /* === 2 === */
   .benefits{
     padding: 120px 0;
   }
