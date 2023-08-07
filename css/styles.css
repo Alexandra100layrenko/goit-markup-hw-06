@@ -928,6 +928,9 @@ p .small{
     flex-basis: calc((100% - 72px) / 2);
   }
   /* === 5 === */
+  .cut{
+    width: calc((100% - 48px) / 6);
+  }
 }
 
 
@@ -960,10 +963,7 @@ p .small{
   .benefits-item{
     flex-basis: calc((100% - 72px) / 4);
   }
-  /* === 5 === */
-  .cut{
-    width: calc((100% - 48px) / 3);
-  }
+ 
   /* === svg === */
   .advantages-block {
     visibility: visible;
