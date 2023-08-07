@@ -38,6 +38,16 @@
       width: calc((100% - 48px) / 3);
     }
     /* === footer === */
+    .footer-container{
+        text-align: left; 
+        align-items: baseline;
+        justify-content: center;
+        }
+    
+    .footer-content{
+        margin-right: 24px;
+        justify-content: flex-start;
+    }
 }
   
 /* === DESTOP === */
