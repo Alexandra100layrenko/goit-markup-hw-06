@@ -306,17 +306,10 @@ p .small{
 }
 /* === svg === */
 .advantages-block {
-  display: flex;
-  height: 112px;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
+  visibility: hidden;
+  display: none;
 }
-.advantages-icon {
-  fill: var(--dark);
-}
+
 
 
 @media screen and (min-width: 428px;){
@@ -340,16 +333,34 @@ p .small{
   .description-benefits{
     color: var(--primary-text-color);
   }
-  /* === svg === */
-  .advantages-block {
-    visibility: hidden;
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1158px){
   .container{
     max-width: 1158px;
+  }
+  .benefits{
+    padding: 120px 0;
+  }
+  .benefits-option{
+    gap: 24px;
+
+  }
+  .benefits-item{
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  /* === svg === */
+  .advantages-block {
+    display: flex;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  .advantages-icon {
+    fill: var(--dark);
   }
 }
 
