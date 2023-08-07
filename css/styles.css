@@ -432,20 +432,13 @@ p .small{
   background-color: #2E2F42;
   padding-top: 96px;
   padding-bottom: 96px;
-  /*padding-top: 100px;
-  padding-bottom: 100px;*/
 }
 .footer-container{
-  display: flex;
-  /*align-items: baseline;*/
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
 }
 .footer-content{
-  /*flex-direction: row;
-  gap: 120px;
-  margin-right: 120px;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -473,7 +466,6 @@ p .small{
 .social{
   display: flex;
   flex-direction: column;
-  /*margin-right: 80px;*/
   margin-bottom: 72px;
 }
 .social-name {
@@ -541,7 +533,6 @@ p .small{
 
 .search-form{
   max-width: 398px;
-  /*width: 264px;*/
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
