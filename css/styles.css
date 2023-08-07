@@ -385,8 +385,8 @@ p .small{
 }
 /* ================= SECTION-5 ================= */
 .customers{
-  /*padding-top: 96px;
-  padding-bottom: 96px;*/
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-block>.sub-title-text{
   font-size: 36px;
@@ -398,11 +398,11 @@ p .small{
 .customers-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 16px 72px;
+  gap: 16px;
 }
 .cut{
   height: 88px;
-  width: calc((100% - 16px) / 2);
+  width: calc((100% - 16px) / 6);
 }
 .customers-link{
   display: flex;
