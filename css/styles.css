@@ -294,7 +294,8 @@ p .small{
 .benefits-option{
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  justify-content: center;
+  gap: 72px 24px;
 }
 
 .subtitel-benefits{
@@ -341,7 +342,7 @@ p .small{
   .benefits-item{
     flex-basis: calc((100% - 72px) / 2);
   }
-   /* === 3 === */
+   /* === 4 === */
 }
 
 
@@ -376,6 +377,7 @@ p .small{
   }
   /* === svg === */
   .advantages-block {
+    visibility: visible;
     display: flex;
     height: 112px;
     border-radius: 4px;
@@ -405,6 +407,11 @@ p .small{
   .category-product-item{
     flex-basis: calc((100% - 48px) / 3);
   }
+   /* === 4 === */
+  .card-employee{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 
@@ -416,8 +423,8 @@ p .small{
 /* ================= SECTION-4 ================= */
 .card-employee{
   background-color: #F4F4FD;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .card-text{
@@ -428,6 +435,8 @@ p .small{
   display: flex;
   align-content: center;
   gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card-employee-item{
   flex-basis: calc((100% - 72px) / 4);
