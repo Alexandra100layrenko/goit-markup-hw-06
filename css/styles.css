@@ -1033,4 +1033,24 @@ p .small{
     width: calc((100% - 120px) / 6);
   } 
   /* === footer === */
+  .footer-bg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container{
+    align-items: baseline;
+  }
+  .footer-content{
+    flex-direction: row;
+    gap: 120px;
+    margin-right: 120px;
+  }
+ 
+  .social{
+    margin-right: 80px;
+  }
+  
+  .search-form {
+    width: 264px;
+  }
 }
