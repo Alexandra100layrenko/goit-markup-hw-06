@@ -560,7 +560,7 @@ p .small{
 }
 
 .search-form{
-  width: 398px;
+  min-width: 290px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
