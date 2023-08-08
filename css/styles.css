@@ -195,6 +195,7 @@ body{
   right: 24px;
   top: 24px;
   transform: translateX(-50%);
+  flex-shrink: 0;
 }
 .mob-close-btn:hover,
 .mob-close-btn:focus{
@@ -221,7 +222,7 @@ body{
   width: 100vw;
   height: 100vh;
   z-index: 2;
-  padding: 40px 80px 35px 40px;
+  padding: 40px 35px 0px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
