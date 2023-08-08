@@ -7,7 +7,7 @@
     /* === footer === */
 }
   
-  /* ==================== TAB ====================*/
+/* ==================== TAB ====================*/
 @media screen and (min-width: 768px){
     .container{
       max-width: 766px;
@@ -107,11 +107,12 @@
       max-width: 496px;
       margin-bottom: 36px;
     }
-  
+
     /* === 2 === */
     .benefits-option {
       flex-direction: row;
     }
+
     .benefits-item{
       flex-basis: calc((100% - 72px) / 2);
     }
