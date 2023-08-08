@@ -111,6 +111,7 @@
     /* === 2 === */
     .benefits-option {
       flex-direction: row;
+      gap: 72px 24px;
     }
 
     .benefits-item{
