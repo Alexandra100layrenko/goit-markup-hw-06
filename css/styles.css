@@ -182,10 +182,8 @@ p .small{
   color: var(--dark);
 }
 
+/* ==== ========== === */
 
-.mobile-menu-btn{
-  
-}
 .mobile-menu-btn-icon{
   fill: #2E2F42;
 }
@@ -202,10 +200,10 @@ p .small{
   flex-direction: column;
   justify-content: space-between;
 }
-.menu-close-btn {
+.mobile-close-btn {
   display: block;
   margin-left: auto;
-  margin-bottom: 88px;
+  margin-bottom: 24px;
 }
 .header-socials-icon {
 }
