@@ -191,11 +191,15 @@ body{
   align-items: center;
   justify-content: center;
   margin-left: auto;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  transform: translateX(-50%);
 }
 .mob-close-btn:hover,
 .mob-close-btn:focus{
   background-color: #404bbf;
-  border: none;
+  border: transparent;
 }
 .mob-close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
