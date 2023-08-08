@@ -83,19 +83,17 @@
       gap: 12px;
     }
 
-    .mob-force-tel.{
+    .mob-force-tel, .mob-force-mail{
       display: flex;
+      padding-top: 0;
+      padding-bottom: 0;
     }
     
-    .mob-force-mail{
-      display: flex;
+    .page-header-container a {
+      display: block;
+      padding-top: 16px;
+      padding-bottom: 16px;
     }
-    
-    /*.page-header-container a {
-       display: block; 
-      padding-top: 24px;
-      padding-bottom: 24px;
-  }*/
 
     .force:hover,
     .force:focus{
