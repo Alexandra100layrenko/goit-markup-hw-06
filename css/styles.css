@@ -242,8 +242,6 @@ p .small{
 .mob-page-contact{
   font-family: var(--main-font-family);
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   display: flex;
@@ -256,20 +254,18 @@ p .small{
   flex-direction: column;
 }
 .mob-force-tel {
-  font-family: Roboto;
+  font-style: normal;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: left;
   color: #4D5AE5;
 }
 .mob-force-mail {
-  font-family: Roboto;
+  font-style: normal;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 1.2;;
   text-align: left;
   color: #434455;
 }
