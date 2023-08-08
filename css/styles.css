@@ -222,7 +222,6 @@ body{
   padding: 80px 35px 40px 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
@@ -249,6 +248,10 @@ body{
 }
 
 /* ==== addres === */
+.mobile-position{
+  position: absolute;
+  bottom: 40px;
+}
 .mob-page-contact{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -261,6 +264,7 @@ body{
   gap: 40px;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 .mob-force-tel {
   font-style: normal;
