@@ -83,12 +83,20 @@
       gap: 12px;
     }
 
-    .mob-force-tel.{;
-    }
-
-    .mob-force-mail{
+    .mob-force-tel.{
+      display: flex;
     }
     
+    .mob-force-mail{
+      display: flex;
+    }
+    
+    /*.page-header-container a {
+       display: block; 
+      padding-top: 24px;
+      padding-bottom: 24px;
+  }*/
+
     .force:hover,
     .force:focus{
       color: var(--accent-color-pressed-state);
