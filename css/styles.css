@@ -246,12 +246,13 @@ p .small{
   color: var(--primary-text-color);
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 .mob-contact-list{
   display: flex;
-  align-items: flex-start;
   gap: 40px;
-  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .mob-force-tel {
   font-style: normal;
