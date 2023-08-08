@@ -237,6 +237,16 @@ body{
   letter-spacing: 0.02em;
   text-align: left;
 }
+.mob-menu-item{
+  color: #2E2F42;
+}
+.mob-menu-link{
+  color: var(--dark);
+}
+.mob-menu-link:hover,
+.mob-menu-link:focus{
+  color: var(--accent-color-pressed-state);
+}
 
 /* ==== addres === */
 .mob-page-contact{
