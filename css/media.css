@@ -12,7 +12,14 @@
     .container{
       max-width: 766px;
     }
+    .heder-title{
+      margin-bottom: 36px;
+    }
     /* === heder === */
+    .logo{
+      margin-right: 76px;
+    }
+
     .menu-list{
       display: flex;
       align-content: center;
@@ -172,7 +179,13 @@
     .container{
       max-width: 1158px;
     }
+    .heder-title{
+      margin-bottom: 112px;
+    }
     /* === heder === */
+    .logo{
+      margin-right: 76px;
+    }
     .page-contact{
       font-family: Roboto;
       font-size: 16px;
@@ -191,7 +204,10 @@
     /* === 1 === */
     .image-bg{
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+      padding-top: 188px;
+      padding-bottom: 188px;
     }
+
     @media (min-device-pixel-zatio:2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {

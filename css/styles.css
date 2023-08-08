@@ -84,7 +84,6 @@ body{
   color: var(--primary-color-white);
   max-width: 320px;
   margin-bottom: 72px;
-  margin-bottom: 112px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -100,35 +99,20 @@ body{
 
 .subtitel-options-text{
   font-family: var(--main-font-family);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
 .suboptions-descriptions-text{
   font-family: var(--main-font-family);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-p .medium{
-  font-family: var(--main-font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-}
-p .small{
-  font-family: var(--main-font-family);
-  font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.04em;
-  color: var(--dark);
-}
+
 .link a{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -176,7 +160,6 @@ p .small{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
-  margin-right: 76px;
 }
 .logo-accent{
   color: var(--dark);
@@ -189,11 +172,12 @@ p .small{
   margin-left: auto;
   width: 32px;
   height: 22px;
+  padding: 0;
   border: none;
-  background-color:none;;
+  background-color: transparent;
 }
 .mob-open-btn-icon {
-  fill: #2E2F42;
+  stroke: #2E2F42;
 }
 
 .mob-close-btn{
@@ -324,8 +308,8 @@ p .small{
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 
 @media (min-device-pixel-zatio:2),
