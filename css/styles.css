@@ -312,6 +312,7 @@ p .small{
 }
 
 .subtitel-benefits{
+  text-align: left;
   margin-bottom: 8px;
 }
 .description-benefits{
