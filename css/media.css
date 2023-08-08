@@ -110,6 +110,9 @@
     }
   
     /* === 2 === */
+    .benefits-option {
+      flex-direction: row;
+    }
     .benefits-item{
       flex-basis: calc((100% - 72px) / 2);
     }
