@@ -371,7 +371,13 @@ body{
 .subtitel-benefits{
   text-align: center;
   margin-bottom: 8px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
+
 .description-benefits{
   color: var(--primary-text-color);
 }

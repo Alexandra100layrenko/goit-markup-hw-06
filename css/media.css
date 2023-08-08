@@ -236,6 +236,13 @@
     .benefits{
       padding: 120px 0;
     }
+
+    .subtitel-benefits{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
     .benefits-option{
       gap: 24px;
   
