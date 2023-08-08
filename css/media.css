@@ -81,7 +81,8 @@
     .force:focus{
       color: var(--accent-color-pressed-state);
     }
-    .mobile-menu-btn{
+
+    .mobile-open-btn, .mob-menu{
       display: none;
     }
     /* === 1 === */
