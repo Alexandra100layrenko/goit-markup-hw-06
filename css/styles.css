@@ -239,7 +239,7 @@ p .small{
 }
 
 /* ==== addres === */
-/*.page-contact{
+.mob-page-contact{
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 400;
@@ -248,15 +248,15 @@ p .small{
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.contact-list{
+.mob-contact-list{
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.force:hover,
-.force:focus{
+.mob-force:hover,
+.mob-force:focus{
   color: var(--accent-color-pressed-state);
-}*/
+}
 /* ================= MAIN ================= */
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
