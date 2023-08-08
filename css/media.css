@@ -82,7 +82,7 @@
       color: var(--accent-color-pressed-state);
     }
 
-    .mobile-open-btn, .mob-menu {
+    .mob-open-btn, .mob-menu {
       display: none;
     }
     /* === 1 === */
