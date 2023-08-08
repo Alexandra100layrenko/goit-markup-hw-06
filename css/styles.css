@@ -184,6 +184,10 @@ p .small{
 
 /* ==== ========== === */
 
+.mob-open-btn {
+  display: block;
+  margin-left: auto;
+}
 .mob-open-btn-icon{
   fill: #2E2F42;
 }
