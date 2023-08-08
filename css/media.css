@@ -172,6 +172,20 @@
       max-width: 1158px;
     }
     /* === heder === */
+    .page-contact{
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      text-align: left;
+    }
+    .contact-list{
+      display: flex;
+      align-items: center;
+      justify-content: row;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
 
     /* === 1 === */
     .image-bg{
