@@ -187,7 +187,7 @@ p .small{
 .mobile-menu-btn-icon{
   fill: #2E2F42;
 }
-.mob-menu {
+/*.mob-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -219,8 +219,8 @@ p .small{
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
-  letter-spacing: -0.02em;
+  line-height: 1.14;
+  letter-space: -0.02em;
 }
 
 .mob-socials {
@@ -239,7 +239,7 @@ p .small{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 /* ================= MAIN ================= */
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
