@@ -259,6 +259,33 @@ p .small{
 .mob-force-tel:focus, .mob-force-mail:focus{
   color: var(--accent-color-pressed-state);
 }
+/* === svg === */
+.mob-card-menu-icon{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.mob-card-icon{
+  width: 40px;
+  height: 40px;
+}
+.card-mob-link{
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-mob-link:hover,
+.card-mob-link:focus{
+  background-color: #404bbf;
+}
+.card-mob-icon{
+  fill: var(--light);
+}
 /* ================= MAIN ================= */
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
