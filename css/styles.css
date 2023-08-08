@@ -181,6 +181,12 @@ p .small{
 .logo-accent{
   color: var(--dark);
 }
+.mobile-menu-btn{
+  
+}
+.mobile-menu-btn-icon{
+  fill: #2E2F42;
+}
 /* ================= MAIN ================= */
 /* ================= SECTION-1-BANNER ================= */
 .image-bg{
