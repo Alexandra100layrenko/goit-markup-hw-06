@@ -184,7 +184,9 @@ p .small{
 
 /* ==== ========== === */
 
-
+.mob-open-btn-icon{
+  fill: #2E2F42;
+}
 .mob-close-btn{
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
