@@ -249,10 +249,11 @@ p .small{
 }
 .mob-contact-list{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
+  flex-direction: column;
 }
-.mob-force-tel{
+.mob-force-tel {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
@@ -261,7 +262,7 @@ p .small{
   text-align: left;
   color: #4D5AE5;
 }
-.{
+.mob-force-mail {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
@@ -279,6 +280,7 @@ p .small{
   display: flex;
   justify-content: center;
   gap: 24px;
+  justify-content: space-around;
 }
 .mob-card-icon{
   width: 40px;
