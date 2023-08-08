@@ -199,6 +199,7 @@ p .small{
   height: 24px;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 .mob-close-btn:hover,
 .mob-close-btn:focus{
