@@ -184,23 +184,38 @@ p .small{
 
 /* ==== ========== === */
 
-.mob-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #1e1823;
-  width: 100vw;
-  height: 100vh;
-  z-index: 2;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .mobile-close-btn {
   display: block;
   margin-left: auto;
   margin-bottom: 24px;
+}
+
+.mob-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  padding: 40px 80px 35px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+.mob-menu-list{
+  display: flex;
+
+}
+.mob-menu-link {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 /*.mob-page-contact{
 }
@@ -212,13 +227,7 @@ p .small{
 .mob-contact-item:not(:last-child) {
   margin-bottom: 24px;
 }
-.mob-menu-link {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-space: -0.02em;
-}
+
 
 .mob-socials {
   display: flex;
