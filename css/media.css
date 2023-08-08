@@ -131,7 +131,6 @@
     .benefits-option {
       flex-direction: row;
       gap: 72px 24px;
-      align-items: center;
     }
 
     .benefits-item{
