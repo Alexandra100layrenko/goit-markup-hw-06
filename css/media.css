@@ -117,6 +117,9 @@
     .benefits-item{
       flex-basis: calc((100% - 72px) / 2);
     }
+    .subtitel-benefits{
+      text-align: left;
+    }
      /* === 4 === */
      .card-employee-list {
       gap: 64px 24px;
