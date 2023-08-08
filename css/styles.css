@@ -190,6 +190,16 @@ p .small{
   margin-bottom: 24px;
 }
 
+.mob-close-btn{
+  background-color: #E7E9FC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+}
 .mob-close-btn:hover,
 .mob-close-btn:focus{
   background-color: #404bbf;
