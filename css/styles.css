@@ -187,8 +187,12 @@ p .small{
 .mob-open-btn {
   display: block;
   margin-left: auto;
+  width: 32px;
+  height: 22px;
+  border: none;
+  background-color:none;;
 }
-.mob-open-btn-icon{
+.mob-open-btn-icon {
   fill: #2E2F42;
 }
 
