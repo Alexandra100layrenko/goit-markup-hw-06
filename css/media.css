@@ -129,8 +129,9 @@
 
     /* === 2 === */
     .benefits-option {
-      flex-direction: row;
       gap: 72px 24px;
+      flex-wrap: wrap;
+      align-items: flex-start;
     }
 
     .benefits-item{
