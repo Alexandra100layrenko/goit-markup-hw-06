@@ -288,6 +288,7 @@ body{
   justify-content: center;
   gap: 24px;
   justify-content: space-between;
+  max-width: 328px;
 }
 .mob-card-icon{
   width: 40px;
