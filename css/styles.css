@@ -253,6 +253,7 @@ p .small{
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #4D5AE5;
 }
 .mob-force-tel:hover, .mob-force-mail:hover,
 .mob-force-tel:focus, .mob-force-mail:focus{
