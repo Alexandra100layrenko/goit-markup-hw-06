@@ -76,18 +76,19 @@
       color: var(--primary-text-color);
     }
     .contact-list{
+      display: flex;
+      align-items: center;
+      justify-content: column;
+      flex-wrap: wrap;
+      gap: 12px;
     }
 
     .mob-force-tel.{;
     }
 
     .mob-force-mail{
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14px;
-      letter-spacing: 0.04em;
-      text-align: left;
     }
+    
     .force:hover,
     .force:focus{
       color: var(--accent-color-pressed-state);
