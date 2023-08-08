@@ -64,6 +64,8 @@
     }
     /* ==== addres === */
     .page-contact{
+      width: 100%;
+      height: 100%;
       font-family: var(--main-font-family);
       font-style: normal;
       font-weight: 400;
