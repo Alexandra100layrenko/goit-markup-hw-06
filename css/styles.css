@@ -184,10 +184,24 @@ p .small{
 
 /* ==== ========== === */
 
-.mobile-close-btn {
+.mob-close-btn {
   display: block;
   margin-left: auto;
   margin-bottom: 24px;
+}
+
+.mob-close-btn:hover,
+.mob-close-btn:focus{
+  background-color: #404bbf;
+  border: none;
+}
+.mob-icon-close{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-close-btn:hover,
+.mob-close-btn:focus{
+  fill: #ffffff;
 }
 
 .mob-menu {
