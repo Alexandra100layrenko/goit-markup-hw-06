@@ -245,12 +245,12 @@ p .small{
 /* ==== addres === */
 .mob-page-contact{
   font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  display: flex;
+  flex-wrap: wrap;
 }
 .mob-contact-list{
   display: flex;
