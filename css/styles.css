@@ -210,9 +210,6 @@ body{
 .mob-close-btn:focus {
   fill: #ffffff;
 }
-.mob-page-navigation-menu{
-  margin-top: 32px;
-}
 
 .mob-menu {
   position: fixed;
@@ -222,7 +219,7 @@ body{
   width: 100vw;
   height: 100vh;
   z-index: 2;
-  padding: 40px 35px 0px 40px;
+  padding: 80px 35px 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
