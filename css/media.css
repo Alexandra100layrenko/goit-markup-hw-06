@@ -84,7 +84,6 @@
     .mobile-menu-btn{
       display: none;
     }
-  }
     /* === 1 === */
     .image-bg{
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
