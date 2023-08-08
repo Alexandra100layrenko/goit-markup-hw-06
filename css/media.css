@@ -78,7 +78,7 @@
     .contact-list{
       display: flex;
       align-items: center;
-      justify-content: column;
+      flex-direction: column;
       flex-wrap: wrap;
       gap: 12px;
     }
@@ -183,7 +183,7 @@
     .contact-list{
       display: flex;
       align-items: center;
-      justify-content: row;
+      flex-direction: row;
       flex-wrap: wrap;
       gap: 40px;
     }
