@@ -244,8 +244,6 @@ p .small{
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: 48px;
 }
 .mob-contact-list{
