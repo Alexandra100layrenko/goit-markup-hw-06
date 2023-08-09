@@ -175,7 +175,7 @@
     }
     
     .footer-content{
-      ustify-content: flex-start;
+      justify-content: flex-start;
     }
 
     .search {
@@ -340,10 +340,9 @@
     }
     .footer-content{
       flex-direction: row;
-      gap: 120px;
       margin-right: 120px;
     }
-    
+
     .footer-descriptions{
       max-width: 264px;
       color: var(--light);
