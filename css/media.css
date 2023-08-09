@@ -88,6 +88,8 @@
       flex-direction: column;
       flex-wrap: wrap;
       gap: 12px;
+      margin-bottom: 16px;
+      margin-top: 16px;
     }
 
     .mob-force-tel, .mob-force-mail{
@@ -96,10 +98,10 @@
       padding-bottom: 0;
     }
     
-    .page-header-container a {
+    .menu-link{
       display: block;
-      padding-top: 16px;
-      padding-bottom: 16px;
+      padding-top: 24px;
+      padding-bottom: 24px;
     }
 
     .force:hover,
