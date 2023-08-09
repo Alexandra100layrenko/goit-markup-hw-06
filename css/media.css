@@ -347,7 +347,7 @@
   
     .footer-form{
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
    
