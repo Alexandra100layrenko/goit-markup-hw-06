@@ -327,39 +327,38 @@
       width: calc((100% - 120px) / 6);
     } 
     /* === footer === */
+    
     .footer-bg{
-        padding-top: 100px;
-        padding-bottom: 100px;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
     .footer-container{
-        display: flex;
-        align-items: baseline;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0;
+      align-items: baseline;
     }
     .footer-content{
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-right: 120px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      flex-direction: row;
+      gap: 120px;
+      margin-right: 120px;
     }
-  
-    .footer-form{
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
+    
+    .social{
+      margin-right: 80px;
     }
    
     .social{
         text-align: left;
         margin-right: 80px;
     }
-    .search>.suboptions-descriptions-text{
-        text-align: left;
+    
+    .footer-form{
+      display: flex;
     }
-    .search-form {
-        width: 264px;
+    
+    .search-form{
+      width: 264px;
     }
+    
 }
