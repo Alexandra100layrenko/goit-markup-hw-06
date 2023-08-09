@@ -252,9 +252,9 @@ body{
 }
 
 /* ==== addres === */
-.mobile-position{
-  position: absolute;
-  bottom: 40px;
+.mob-position{
+  position: fixed;
+    bottom: 40px;
 }
 .mob-page-contact{
   font-family: var(--main-font-family);
