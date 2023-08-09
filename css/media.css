@@ -187,6 +187,10 @@
       flex-direction: row;
       align-items: center;
     }
+
+    .modal{
+      width: 408px;
+    }
 }
   
 /* ==================== DESTOP ==================== */

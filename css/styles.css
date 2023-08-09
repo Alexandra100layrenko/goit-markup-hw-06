@@ -697,8 +697,11 @@ body{
   pointer-events: none;
 }
 .modal{
+  min-width: 280px;
+  max-width: 392px;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
-  width: 408px;
   min-height: 584px;
   left: 50%;
   top: 50%;
