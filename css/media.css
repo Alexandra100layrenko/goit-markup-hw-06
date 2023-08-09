@@ -102,8 +102,8 @@
     
     .menu-link{
       display: block;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 16px;
+      padding-bottom: 16px;
     }
 
     .force:hover,
@@ -222,6 +222,10 @@
       flex-direction: row;
       flex-wrap: wrap;
       gap: 40px;
+    }
+    .menu-link{
+      padding-top: 24px;
+      padding-bottom: 24px;
     }
 
     /* === 1 === */
