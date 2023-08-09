@@ -17,8 +17,8 @@
     }
     /* === heder === */
     .page-header-container {
-      padding-bottom: 16px;
-      padding-top: 16px;
+      padding-bottom: 0x;
+      padding-top: 0px;
     }
     .logo{
       margin-right: 76px;
@@ -203,8 +203,8 @@
     }
     /* === heder === */
     .page-header-container {
-      padding-bottom: 24px;
-      padding-top: 24px;
+      padding-bottom: 0;
+      padding-top: 0;
     }
     .logo{
       margin-right: 76px;
