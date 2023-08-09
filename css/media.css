@@ -177,6 +177,13 @@
     .footer-content{
       ustify-content: flex-start;
     }
+
+    .search {
+      text-align: left;
+    }
+    .footer-form {
+      flex-direction: row;
+    }
 }
   
 /* ==================== DESTOP ==================== */
