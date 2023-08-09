@@ -547,9 +547,9 @@ body{
 }
 .footer-container{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  text-align: center;
+  /*justify-content: center;
+  text-align: center;*/
 }
 .footer-content{
   display: flex;
@@ -576,12 +576,10 @@ body{
   max-width: 264px;
   color: var(--light);
   text-align: left;
-  margin-bottom: 72px;
 }
 .social{
   display: flex;
   flex-direction: column;
-  margin-bottom: 72px;
 }
 .social-name {
   font-family: "Roboto", sans-serif;
