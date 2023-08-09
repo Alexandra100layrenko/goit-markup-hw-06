@@ -183,6 +183,7 @@
     }
     .footer-form {
       flex-direction: row;
+      align-items: center;
     }
 }
   
@@ -355,6 +356,7 @@
     
     .footer-form{
       display: flex;
+      align-items: flex-start;
     }
     
     .search-form{
