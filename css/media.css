@@ -196,6 +196,10 @@
       margin-bottom: 112px;
     }
     /* === heder === */
+    .page-header-container {
+      margin-bottom: 16px;
+      margin-top: 16px;
+    }
     .logo{
       margin-right: 76px;
     }
