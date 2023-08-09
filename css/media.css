@@ -333,34 +333,6 @@
       padding-top: 100px;
       padding-bottom: 100px;
     }
-    .footer-container{
-      align-items: baseline;
-    }
-    .footer-content{
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-      flex-direction: row;
-      gap: 120px;
-      margin-right: 120px;
-    }
     
-    .social{
-      margin-right: 80px;
-    }
-   
-    .social{
-        text-align: left;
-        margin-right: 80px;
-    }
-    
-    .footer-form{
-      display: flex;
-      align-items: flex-start;
-    }
-    
-    .search-form{
-      width: 264px;
-    }
     
 }
