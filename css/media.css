@@ -337,10 +337,10 @@
     .footer-container{
       display: flex;
       align-items: baseline;
+      justify-content: space-between;
     }
     .footer-content{
       flex-direction: row;
-      margin-right: 120px;
     }
 
     .footer-descriptions{
@@ -350,7 +350,6 @@
     .social{
       display: flex;
       flex-direction: column;
-      margin-right: 80px;
     }
     
     .search-text{
