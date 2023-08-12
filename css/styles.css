@@ -301,7 +301,6 @@ body{
 /* === svg === */
 .mob-card-menu-icon{
   display: flex;
-  justify-content: center;
   gap: 24px;
   justify-content: space-between;
   max-width: 328px;
