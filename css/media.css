@@ -172,6 +172,7 @@
       text-align: left; 
       align-items: baseline;
       max-width: 582px;
+      justify-content: left;
       gap: 72px 24px;
     }
     
@@ -346,6 +347,7 @@
       display: flex;
       align-items: baseline;
       justify-content: space-between;
+      justify-content: center;
     }
     .footer-content{
       flex-direction: row;
